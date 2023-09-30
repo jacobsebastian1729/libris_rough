@@ -1,0 +1,35 @@
+.user-information {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile {
+    width: 75%;
+    height: 10rem;
+    z-index: 0;
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+.profile h2 {
+    color: white;
+    font-size: 3rem;
+}
+.about-div {
+    width: 75%;
+    color: black;
+    margin-top: 9rem;
+    text-align: left;
+}
+.about {
+    background-color: lavender;
+    border-radius: 15px;
+    padding: 2rem 2rem;
+}
+
+

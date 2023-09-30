@@ -1,0 +1,27 @@
+.mybooks {
+    padding: 5rem;
+}
+
+.mybook-btns {
+    margin-top: 2rem;
+}
+
+.mybook-bottom {
+    padding-top: 4rem;
+    display: flex;
+}
+
+.mybook-list {
+    padding-left: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mybook-item {
+    margin-left: 1rem;
+}
+
+.mybook-item img {
+    width: 120px;
+    height: 185px;
+}

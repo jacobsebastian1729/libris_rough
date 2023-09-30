@@ -1,0 +1,74 @@
+.shelf_header{
+    background-image: url("https://cdn.shopify.com/s/files/1/0332/9038/7588/products/LF3506_600x.jpg?v=1622182960");
+    background-color: #793c10;
+    
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+}
+.shelf_header_content{
+   
+    color: rgb(228, 232, 232);
+    
+}
+
+.shelf_content{
+    background-image: url("https://cdn.shopify.com/s/files/1/0332/9038/7588/products/LF3502_600x.jpg?v=1622182941");
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.shelf_outer_content{
+   
+    background-image: linear-gradient(to bottom, #3D1B01, #8B5A2B, #3D1B01);   
+    color: rgb(198, 201, 201);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+
+
+.horizontal-section {
+    width: 80%;
+    overflow-x: auto;
+    white-space: nowrap;
+    background-image: url("https://cdn.shopify.com/s/files/1/0332/9038/7588/products/LF3506_600x.jpg?v=1622182960");
+    background-color: #855E42;
+    padding: 2%;
+    padding-bottom: 0px;
+    border: 7px solid #793c10;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-bottom: 15px;
+  }
+
+  .horizontal-section::-webkit-scrollbar {
+    background-color: #855E42;
+  }
+  
+
+  .item {
+    display: inline-block;
+    width: 150px;
+    height: 200px;
+    background-color: #ccc;
+    margin-right: 50px;
+  }
+  .item:hover {
+    width: 153px;
+    height: 201px;
+    opacity:0.6;
+  }
+  .cardItem:hover {
+    width: 101%;
+    height: 61%;
+    opacity:0.6;
+  }
